@@ -25,7 +25,6 @@ jobs:
             -d '{
               "ref":"${{ github.sha }}",
               "environment":"production",
-              "auto_merge":false,
               "required_contexts":[]
             }')
 
